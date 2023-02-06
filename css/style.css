@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 72px;   
+}
+
+.text p{
+   display: inline-flex;
+   padding: 20px 20px 0px 30px;
+}
+
+.left{
+    position: relative;
+    display: block;
+    padding: 67px 0px 30px 0px;
+    justify-content: left;
+    float: left; 
+}
+
+.right{
+    position: relative;
+    display: block;
+    padding: 67px 0px 30px 0px;
+    justify-content: right;
+    float: right; 
+}
+
+.container{
+    padding: 0px 0px 73px 300px;
+}
+
+.box{
+    padding: 0px 300px 73px 0px;
+}
+
+.container input{
+    width: 277px;
+    height: 59px;
+}
+
+.box input{
+    width: 277px;
+    height: 59px;
+}
+
+.container p{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.box p{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 277px;
+    height: 59px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(44, 44, 244);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+.input + span:before {
+    position: absolute;
+    content: attr(name);
+    left: 9px;
+    top: -2px;
+    font-family: Segoe UI;
+    font-size: 16px;
+    transition: .2s ease;
+}
+
+label{
+   display: grid;
+   padding-top: 20px;
+   
+}
+
+.container label{
+    display: flex;
+}
