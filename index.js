@@ -1,4 +1,5 @@
 let inps = document.querySelectorAll('input')
+let p = document.querySelectorAll('p')
 
 let pattern = {
     name:/^[a-z ,.'-]+$/i,
@@ -11,10 +12,12 @@ let pattern = {
 function validation (regex, field) {
     if(regex.test(field.value)){
         field.style.borderColor = 'green'
+        
         field.nextElementSibling.innerHTML = ''
     } else{
         field.style.borderColor = 'red'
         field.nextElementSibling.innerHTML = 'Please enter your email adress'
+        p.style.color = 'red'
         field.nextElementSibling.style.color = 'red'
     }
 }
@@ -24,4 +27,3 @@ inps.forEach(inp =>{
         validation(pattern[inp.name],inp)
     }
 })
-
