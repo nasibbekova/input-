@@ -10,6 +10,7 @@ body{
     text-align: center;
     justify-content: center;
     margin-top: 72px;   
+    
 }
 
 .text p{
@@ -61,7 +62,7 @@ body{
     padding-bottom: 10px;
 }
 
-button{
+/* button{
     background-color: blue;
     color: white;
     width: 277px;
@@ -72,25 +73,50 @@ button{
     border-color: rgb(44, 44, 244);
     border-radius: 5px;
     margin-bottom: 50px;
-}
+    position: fixed;
+} */
 
 
-.input + span:before {
-    position: absolute;
-    content: attr(name);
-    left: 9px;
-    top: -2px;
-    font-family: Segoe UI;
-    font-size: 16px;
-    transition: .2s ease;
-}
 
 label{
    display: grid;
    padding-top: 20px;
-   
 }
 
 .container label{
     display: flex;
 }
+
+.box label{
+    display: flex;
+    
+}
+
+.container img{
+    display: none;
+    padding-left: 14.8px;
+    padding-bottom: 16px;
+}
+
+.box img{
+    display: none;
+    padding-left: 14.8px;
+    padding-bottom: 16px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(44, 44, 244);
+    border-radius: 5px;
+    width: 277px;
+    height: 59px;
+    margin-top: 1100px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 525px;
+}
+
