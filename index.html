@@ -9,7 +9,8 @@
 </head>
 <body>
 
-    <h1>Example form</h1>
+    <form name="inp">
+    <h1>Example form </h1>
     <div class="text">
         <p>All: 15</p>
         <p>Need: 12</p>
@@ -18,120 +19,137 @@
     </div>
 
     <div class="left">
-    <div class="container"> 
+    <label class="container"> 
         <p style="color: blue;">Name</p>
-        <form action="inp">
-            <input type="text" id="name" name="name">
-            <label for=""></label>
-        </form>
-    </div>
+        <label class="input_container" for="name">
+            <input type="text" id="name" name="name">   
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     
-    
-    <div class="container">
+    <label class="container">
         <p style="color: blue;">Surname</p>
-        <form action="inp">
-             <input type="surname" id="surname" name="surname">
-             <label for=""></label>
-        </form>
-    </div>
-           
+        <label class="input_container" for="name">
+            <input type="surname" id="surname" name="surname"> 
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     
-    <div class="container">
+    <label class="container">
         <p style="color: blue;">Email address</p>
-        <form action="inp">
+        <label class="input_container" for="name">
             <input type="email" id="email" name="email">
-            <label for=""></label>
-        </form>
-    </div>
-            
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     
-    <div class="container">
+    <label class="container">
         <p style="color: blue;">Phone number</p>
-        <form action="inp">
+        <label class="input_container" for="name">
             <input type="phone number" id="phone" name="phone number" >
-            <label for=""></label>
-        </form>
-    </div>
-
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     
-    <div class="container">
+    <label class="container">
         <p>Your Mom's name</p>
-        <form action="inp">
-             <input type="Your Mom's name"  name="Your Mom's name">
-             <label for=""></label>
-        </form>
-    </div>
-           
+        <label class="input_container" for="name">
+            <input type="Your Mom's name"  name="Your Mom's name">
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     
-    <div class="container">
+    <label class="container">
         <p>Your Dad's name</p>
-        <form action="inp">
-            <input type="Your Dad's name" name="Your Dad's name">
-            <label for=""></label>
-        </form>
-    </div>
+        <label class="input_container" for="name">
+            <input type="text" name="Your Dad's name">
+            <label>
+                <img src="./img/Outside Icon Container.svg" alt="">
+            </label>
+        </label>
+    </label>
     </div>       
-    
     
 
     <div class="right">
-        <div class="box">
+        <label class="box">
             <p style="color: blue;">Age</p>
-            <form action="inp">
+            <label class="input_box" for="name">
                 <input type="text" id="age" name="age">
-                <label for=""></label>
-            </form>
-        </div>
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
+        </label>
         
-        
-        <div class="box">
+        <label class="box">
             <p>About you</p>
-            <form action="inp">
+            <label class="input_box" for="name">
                  <input type="text"  name="About you">
-                 <label for=""></label>
-            </form>
-        </div>
-               
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
+        </label>
         
-        <div class="box">
+        <label class="box">
             <p>What is JavaScript?</p>
-            <form action="inp">
+            <label class="input_box" for="name">
                 <input type="text"  name="What is JavaScript?">
-                <label for=""></label>
-            </form>
-        </div>
-                
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
+        </label> 
         
-        <div class="box">
+        <label class="box">
             <p>What is HTML?</p>
-            <form action="inp">
+            <label class="input_box" for="name">
                 <input type="text"  name="What is HTML?">
-                <label for=""></label>
-            </form>
-        </div>
-    
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
+        </label>
         
-        <div class="box">
+        <label class="box">
             <p>What is CSS?</p>
-            <form action="inp">
-                 <input type="text"  name="What is CSS?">
-                 <label for=""></label>
-            </form>
-        </div>
-               
+            <label class="input_box" for="name">
+                   <input type="text"  name="What is CSS?">
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
+        </label>
         
-        <div class="box">
+        <label class="box">
             <p>Your favourite car</p>
-            <form action="inp">
+            <label class="input_box" for="name">
                 <input type="text" name="Your favourite car">
-                <label for=""></label>
-            </form>
-            
-        </div>
-    </div>        
-    <button>Save Changes</button>
+                <label>
+                    <img src="./img/Outside Icon Container.svg" alt="">
+                </label>
+            </label>
 
-    <script src="./index.js"></script>
+        </label>
+    </div>         
     
+</form>
+
+    <div class="btn">
+        <button>Save changes</button>
+    </div>
+
+    <script src="./index.js"></script>    
 </body>
 </html>
