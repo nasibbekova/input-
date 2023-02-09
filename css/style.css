@@ -105,6 +105,7 @@ label{
 }
 
 button{
+    all: unset;
     background-color: blue;
     color: white;
     margin: 0 auto;
