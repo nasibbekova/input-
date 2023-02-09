@@ -1,13 +1,14 @@
 let inps = document.querySelectorAll('input')
 let form = document.forms.inp
 let texts = document.querySelectorAll('.text')
+let submitBtn = document.querySelector('button')
 
 form.onsubmit = (event) =>{
     event.preventDefault();
     let isEror = false 
 
     inps.forEach (inp =>{
-        if(inp.value.length === 0 || inp.classList.contains ('')){
+        if(inp.value.length === 0 || inp.classList.contains ('invalid')){
             isEror = true
         } 
     })
@@ -17,6 +18,7 @@ form.onsubmit = (event) =>{
     } else {
         alert ('Что то не так ')
     }
+
 }
 
 function submit () {
